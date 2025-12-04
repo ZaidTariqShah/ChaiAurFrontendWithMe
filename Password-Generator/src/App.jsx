@@ -23,7 +23,7 @@ const App = () => {
       pass += str.charAt(char);
     }
     setPassword(pass);
-  }, [length, numberAllowed, charAllowed, setPassword]);
+  }, [length, numberAllowed, charAllowed, setPassword]); //Developers include state setter functions in the dependency array because they believe that any setter used inside the effect should also be listed in the dependencies.
 
   useEffect(() => {
     passwordGenerator();
