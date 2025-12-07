@@ -4,9 +4,9 @@ import UserContextProvider from "./context/UserContextProvider";
 const App = () => {
   return (
     <UserContextProvider>
-      <Login/>
-      <Profile/>
-      <h1>React With Chai and Code</h1>;
+      <h1>React With Chai and Code</h1>
+      <Login />
+      <Profile />
     </UserContextProvider>
   );
 };
